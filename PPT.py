@@ -2,9 +2,9 @@ import random
 import time
 
 print("Las reglas del juego son: \n"
-"Piedra gana a Tijeras.\n" \
-"Tijeras gana a Papel.\n" \
-"Papel gana a Piedra.\n")
+"\tPiedra gana a Tijeras.\n" \
+"\tTijeras gana a Papel.\n" \
+"\tPapel gana a Piedra.\n")
 
 while True:
     print("Elige una opción \n 1 - Piedra \n 2 - Papel \n 3 - Tijera")
