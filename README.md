@@ -25,9 +25,9 @@ El ordenador selecciona aleatoriamente un número entre 1 y 3 y lo usa como su e
 se le pregunta al usuario si quiere jugar de nuevo.
 
 <img width="447" height="383" alt="image" src="https://github.com/user-attachments/assets/06c0eea5-78df-4a95-aba4-54e1e1984616" />
-
+<br>
 <img width="447" height="383" alt="image1" src="https://github.com/user-attachments/assets/cd361f7c-e73c-4793-9512-0de28b10fef2" />
-
+<br>
 <img width="447" height="383" alt="image2" src="https://github.com/user-attachments/assets/5e372dc1-37e8-4a9c-b8a3-17658524cc66" />
 
 
