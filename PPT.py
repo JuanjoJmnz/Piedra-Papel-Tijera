@@ -41,15 +41,19 @@ while True:
 
     print("Calculando ganador...")
     time.sleep(3)
+
+    gana_a = {
+        1: [3],
+        2: [1],
+        3: [2]
+    }
     
     if eleccion_nombre == eleccion_ord_nombre:
         resultado = "Empate"
-    elif (eleccion == 1 and eleccion_ord == 2) or (eleccion_ord == 1 and eleccion == 2):
-        resultado = "Papel"
-    elif (eleccion == 1 and eleccion_ord == 3) or (eleccion_ord == 1 and eleccion == 3):
-        resultado = "Piedra"
-    elif (eleccion == 2 and eleccion_ord == 3) or (eleccion_ord == 2 and eleccion == 3):
-        resultado = "Tijeras"
+    elif eleccion_ord in gana_a[eleccion]:
+        resultado = eleccion_nombre
+    else:
+        resultado = eleccion_ord_nombre
 
     if resultado == "Empate":
         print("Hay un empate.")
