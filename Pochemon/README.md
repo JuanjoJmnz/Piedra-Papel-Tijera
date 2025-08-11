@@ -1,1 +1,0 @@
-Debido a asuntos de copyright, Pochemon no está asociado de ninguna manera a Pokémon.
